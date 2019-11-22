@@ -23,7 +23,10 @@
 
 .scenario {
   margin: auto;
+  width: 120px;
   margin-bottom: 40px;
+  cursor: pointer;
+  padding: 20px;
 } 
 
 .selected-scenario {
