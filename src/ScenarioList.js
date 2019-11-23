@@ -21,4 +21,5 @@ const setScenario = (id) => {
     Firestore.collection("performances").doc("demo").set({
         currentScenario: id,
     }, {merge: true})
+    
 }
